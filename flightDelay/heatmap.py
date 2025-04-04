@@ -14,3 +14,6 @@ plt.title("Average Arrival Delay for Each Airline, by Month")
 sns.heatmap(data=flight_data, annot=True)
 plt.xlabel("Airline")
 plt.show()
+
+# annot=True - This ensures that the values for each cell appear
+# on the chart. (Leaving this out removes the numbers from each of the cells!)
