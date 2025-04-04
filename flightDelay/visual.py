@@ -12,3 +12,11 @@ print(flight_data)
 #bar chart showing the average arrival delay for 
 # Spirit Airlines (airline code: NK) flights, by month
 
+plt.figure(figsize=(10,6))
+plt.title("Average Arrival Delay for Spirit Airlines Flights, by Month")
+# sns.barplot(x=flight_data.index, y=flight_data['NK'])
+sns.barplot(data=flight_data["NK"])
+plt.ylabel("Arrival delay (in minutes)")
+plt.xlabel("Month")
+
+plt.show()
