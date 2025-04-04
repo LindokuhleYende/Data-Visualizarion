@@ -20,3 +20,6 @@ plt.ylabel("Arrival delay (in minutes)")
 plt.xlabel("Month")
 
 plt.show()
+#There's an unusual delay of the flights on month 6 => 35 min delay
+#183/12 => 15.25
+#The average delay over the 12 month period is 15.25 minutes
