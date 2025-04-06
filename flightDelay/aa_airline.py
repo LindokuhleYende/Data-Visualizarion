@@ -6,7 +6,7 @@ filepath = "flightDelay/flight_delays.csv"
 df = pd.read_csv(filepath, index_col="Month")
 
 plt.title("The Average Delay Of AA Airline,Per month")
-sns.lineplot(data=df["AA"])
+sns.lineplot(data=df["AA"], color="red")
 plt.ylabel("The delay in minutes")
 plt.show()
 
