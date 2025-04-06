@@ -14,8 +14,6 @@ th{
 }
 
 .box{
-    border: 10px;
-    border-color: black;
     background-color: rgb(168, 168, 248);
     width: 120px;
     height: 50px;
