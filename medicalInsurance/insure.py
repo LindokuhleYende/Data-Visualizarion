@@ -9,6 +9,8 @@ print(insure_data.head())
 
 
 sns.scatterplot(x=insure_data['bmi'], y=insure_data['charges'])
+
+#regression line showing the correlation of bmi vs charges
 sns.regplot(x=insure_data['bmi'], y=insure_data['charges'])
 plt.title("BMI vs Insurance Charges")
 plt.show()
